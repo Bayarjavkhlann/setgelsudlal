@@ -109,6 +109,7 @@ p
     justify-content: space-between;
     z-index: 1;
     padding: 1rem;
+    opacity: 0.95;
 }
 #navbar ul{
     display: flex;
@@ -153,10 +154,10 @@ p
     background: rgba(0,0,0,0.4);
 }
 #showcase .showcase-content p{
-    padding: 0 20rem;
+    padding: 0 2rem;
 }
 #topic{
-    display:flex
+    display:flex;
 }
 #topic div{
    flex: 1;
@@ -165,6 +166,11 @@ p
     background: url(../css/photo/img1.5.jpg)center center/cover;
     height: 73vh;
 }
+#topic .topic-text{
+    padding: 0 1rem;
+    
+}
+#topic .topic-text p
 
 
 
