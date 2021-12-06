@@ -18,6 +18,15 @@ p
 }
 /* utility class style*/
 
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding:  0 2rem;
+    overflow: hidden;
+}
+.text-center{
+    text-align: center;
+}
 .text-primary{
     color: rgb(216, 120, 96);
     margin-left: 0.5rem;
@@ -37,7 +46,7 @@ p
     text-align: center;
     background: rgb(46, 46, 46);
     color: azure;
-    height: 75vh;
+    height: 73vh;
 }
 .py-1{padding: 1.5rem 0};
 .py-2{padding: 2rem 0};
@@ -46,6 +55,10 @@ p
 .p-1{padding: 1.5rem };
 .p-2{padding: 10rem };
 .p-3{padding: 3rem };
+ 
+.text-center{
+    text-align: center;
+}
 
 .l-heading{
     font-size: 3.5rem;
@@ -131,10 +144,12 @@ p
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding: 0 5rem;
+    padding: 0 2rem;
     position: absolute;
     top: 70px;
     left: 0;
+    right: 0;
+    bottom: 0;
     background: rgba(0,0,0,0.4);
 }
 #showcase .showcase-content p{
@@ -148,5 +163,45 @@ p
 }
 #topic .topic-img{
     background: url(../css/photo/img1.5.jpg)center center/cover;
-    height: 75vh;
+    height: 73vh;
+}
+
+
+
+
+
+
+
+/*who*/
+
+#who  {
+    background: url(../css/photo/444.JPG) center center/cover ;}
+#who .black{
+    color: black;
+    
+}
+ 
+.items{
+    display: flex;
+}
+.item{
+    flex: 1;
+    text-align: center;
+    padding: 2rem 0;
+}
+.img{
+    width: 250px;
+    height: 350px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 1.5rem;
+    
+}
+
+#footer .footrr
+{
+    text-align: center;
+    color: aliceblue;
+    background:rgb(46, 46, 46) ;
+    
 }
