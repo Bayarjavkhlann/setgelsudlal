@@ -35,13 +35,14 @@ p
 .m-heading{
     color:rgb(216, 120, 96) ;
     font-size: 2rem;
-    margin-top: 4rem;
+    margin-top: 4.2rem;
     margin-bottom: 2rem;
 }
 .gg{
     font-size: 1.3rem;
-    padding: 0 4rem;
+    padding: 0 5rem;
     margin-bottom: 2.5rem;
+    margin-top: 3rem;
 }
 .bg-dark{
     text-align: center;
@@ -178,6 +179,8 @@ p
 #showcase .showcase-content p{
     padding: 0 2rem;
 }
+
+
 #topic{
     display:flex;
 }
@@ -213,7 +216,7 @@ p
 #general .infos {
      padding-left:10rem ;
      padding-top: 3rem;
-     padding-top: 8rem;
+     padding-top: 6rem;
 }
 #general .ppt p{
 
