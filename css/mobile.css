@@ -10,16 +10,21 @@
         font-size: 10px;
     }
     #navbar .logo{
-        margin-bottom: 0.2rem;
+        margin-bottom: 0.5rem;
         text-align: center;
     }
+    #showcase .btn{
+        padding: 0.3rem 2rem;
+        border: none ;
+        border-radius: 5px;
+    }
 
-
-     #showcase .l-heading{
-        font-size: 1.5rem ;
+     #showcase  .l-heading{
+        font-size: 1.6rem ;
      }
      #showcase .lead{
          font-size: 0.8rem;
+         padding: 0 0;
      }
 
      #topic .topic-img{
@@ -33,13 +38,17 @@
          font-size: 1rem;
          padding: 0 1.5rem;
      }
-   
-     #general{
-        display: none;
-     }
-     #general  p{
-         font-size: 0.1px;
-     }
+
+    .ppt p{
+        background: none;
+        font-size: 0rem;
+        margin-right: 0rem;
+    }
+    
+
+
+
+
      #who .m-heading .black{
          font-size: 1.2rem;
          margin-bottom: 0;
@@ -56,6 +65,8 @@
      #who .items .item .we{
          font-size: 0.6rem;
      }
+
+
      #footer{
          font-size: 12px;
      }
@@ -64,4 +75,6 @@
      }
      
 }
-
+ #general {
+     display: none;
+ }
