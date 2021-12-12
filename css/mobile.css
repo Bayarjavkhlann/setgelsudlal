@@ -7,12 +7,13 @@
     }
     
     #navbar ul li{
-        font-size: 12px;
+        font-size: 10px;
     }
     #navbar .logo{
         margin-bottom: 0.2rem;
         text-align: center;
     }
+
 
      #showcase .l-heading{
         font-size: 1.5rem ;
@@ -25,11 +26,11 @@
         display: none;
      }
      #topic .m-heading{
-         font-size: 1rem;
+         font-size: 1.5rem;
      }
 
      #topic .gg {
-         font-size: 0.5rem;
+         font-size: 1rem;
      }
    
      #general{
