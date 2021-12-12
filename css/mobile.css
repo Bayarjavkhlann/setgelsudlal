@@ -1,31 +1,65 @@
-.items{
-    display: flex;
-}
-.item{
-    flex: 1;
-    text-align: center;
-    padding: 0rem 0;
-    margin-bottom: 2.5rem;
-}
-.img{
-    width: 220px;
-    height: 320px;
-    border: none;
-    border-radius: 7px;
-    margin-bottom: 2rem;
-    
-}
 
-@media(max-width:500px) {
+@media(max-width:768px) {
+    
     #navbar{
         flex-direction: column;
         align-items: center;
     }
+    
     #navbar ul li{
         font-size: 12px;
     }
     #navbar .logo{
-        margin-bottom: 0.4rem;
+        margin-bottom: 0.2rem;
         text-align: center;
     }
+
+     #showcase .l-heading{
+        font-size: 1.5rem ;
+     }
+     #showcase .lead{
+         font-size: 0.8rem;
+     }
+
+     #topic .topic-img{
+        display: none;
+     }
+     #topic .m-heading{
+         font-size: 1rem;
+     }
+
+     #topic .gg {
+         font-size: 0.5rem;
+     }
+   
+     #general{
+        display: none;
+     }
+     #general  p{
+         font-size: 0.1px;
+     }
+     #who .m-heading .black{
+         font-size: 1.2rem;
+         margin-bottom: 0;
+         
+     }
+     #who .items .img{
+     width: 82px;
+     height: 112px;
+     border: none;
+    border-radius: 7px;
+    margin-bottom: 2rem;
+
+     }
+     #who .items .item .we{
+         font-size: 0.6rem;
+     }
+     #footer{
+         font-size: 12px;
+     }
+     #footer .con{
+         display: none;
+     }
+     
 }
+
