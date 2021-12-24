@@ -44,10 +44,6 @@
         font-size: 0rem;
         margin-right: 0rem;
     }
-    
-
-
-
 
      #who .m-heading .black{
          font-size: 1.2rem;
@@ -73,8 +69,6 @@
      #footer .con{
          display: none;
      }
-     
-}
- #general {
-     display: none;
- }
+     #general{
+         display: none;
+     }
